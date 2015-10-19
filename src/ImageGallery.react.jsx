@@ -248,7 +248,7 @@ const ImageGallery = React.createClass({
           <a
             key={index}
             className={
-              'image-gallery-thumbnail ' + (
+              'image-gallery-thumbnail ' + (item.className ? item.className+' ' : '') + (
                 currentIndex === index ? 'active' : '')}
 
             onTouchStart={this.slideToIndex.bind(this, index)}

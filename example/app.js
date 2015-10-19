@@ -75,7 +75,8 @@ const App = React.createClass({
       },
       {
         original: 'http://lorempixel.com/1000/600/nature/7/',
-        thumbnail: 'http://lorempixel.com/250/150/nature/7/'
+        thumbnail: 'http://lorempixel.com/250/150/nature/7/',
+        className: 'very-important'
       }
     ];
 

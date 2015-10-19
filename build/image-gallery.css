@@ -91,6 +91,9 @@
     .image-gallery-bullets .image-gallery-bullet.active {
       background: #fff; }
 
+.very-important {
+  border-color: pink !important; }
+
 .image-gallery-thumbnails {
   background: #fff;
   overflow: hidden;

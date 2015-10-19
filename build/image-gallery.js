@@ -255,7 +255,7 @@ var ImageGallery = _react2['default'].createClass({
           'a',
           {
             key: index,
-            className: 'image-gallery-thumbnail ' + (currentIndex === index ? 'active' : ''),
+            className: 'image-gallery-thumbnail ' + (item.className ? item.className + ' ' : '') + (currentIndex === index ? 'active' : ''),
 
             onTouchStart: _this2.slideToIndex.bind(_this2, index),
             onClick: _this2.slideToIndex.bind(_this2, index) },
